@@ -1,0 +1,12 @@
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\bin\Release\Supermercado.exe.config
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\bin\Release\Supermercado.exe
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\bin\Release\Supermercado.pdb
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\bin\Release\MySql.Data.dll
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\obj\Release\Supermercado.Properties.Resources.resources
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\obj\Release\Supermercado.View.frmTelaClientes.resources
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\obj\Release\Supermercado.View.frmTelaVenda.resources
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\obj\Release\Supermercado.frmTelaPrincipal.resources
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\obj\Release\Supermercado.View.frmTelaProduto.resources
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\obj\Release\Supermercado.csproj.GenerateResource.Cache
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\obj\Release\Supermercado.exe
+D:\Documents\0Documentos Pessoais\Programas\C#\Supermercado\Supermercado\Supermercado\obj\Release\Supermercado.pdb

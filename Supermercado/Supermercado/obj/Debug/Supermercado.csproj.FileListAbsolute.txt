@@ -1,0 +1,9 @@
+D:\Documents\0Documentos Pessoais\Faculdade\T3\LP2\Programas\Visual Studio\Supermercado\Supermercado\bin\Debug\Supermercado.exe.config
+D:\Documents\0Documentos Pessoais\Faculdade\T3\LP2\Programas\Visual Studio\Supermercado\Supermercado\bin\Debug\Supermercado.exe
+D:\Documents\0Documentos Pessoais\Faculdade\T3\LP2\Programas\Visual Studio\Supermercado\Supermercado\bin\Debug\Supermercado.pdb
+D:\Documents\0Documentos Pessoais\Faculdade\T3\LP2\Programas\Visual Studio\Supermercado\Supermercado\obj\Debug\Supermercado.csprojResolveAssemblyReference.cache
+D:\Documents\0Documentos Pessoais\Faculdade\T3\LP2\Programas\Visual Studio\Supermercado\Supermercado\obj\Debug\Supermercado.Properties.Resources.resources
+D:\Documents\0Documentos Pessoais\Faculdade\T3\LP2\Programas\Visual Studio\Supermercado\Supermercado\obj\Debug\Supermercado.csproj.GenerateResource.Cache
+D:\Documents\0Documentos Pessoais\Faculdade\T3\LP2\Programas\Visual Studio\Supermercado\Supermercado\obj\Debug\Supermercado.exe
+D:\Documents\0Documentos Pessoais\Faculdade\T3\LP2\Programas\Visual Studio\Supermercado\Supermercado\obj\Debug\Supermercado.pdb
+D:\Documents\0Documentos Pessoais\Faculdade\T3\LP2\Programas\Visual Studio\Supermercado\Supermercado\obj\Debug\Supermercado.TelaPrincipal.resources
