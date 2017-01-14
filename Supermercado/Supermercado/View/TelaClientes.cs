@@ -225,7 +225,7 @@ namespace Supermercado.View
 
         private void txtCpf_TextChanged(object sender, EventArgs e)
         {
-          btnNovoSalvar.Enabled = new ClienteDAO().readOneByCpf(txtCpf.Text).Cpf == null;
+          //btnNovoSalvar.Enabled = new ClienteDAO().readOneByCpf(txtCpf.Text).Cpf == null;
         }
     }
 }
