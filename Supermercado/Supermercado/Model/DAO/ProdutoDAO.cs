@@ -23,7 +23,7 @@ namespace Supermercado.Model.DAO
             command.Parameters.Add("@nome", MySqlDbType.String);
             command.Parameters.Add("@descricao", MySqlDbType.String);
             command.Parameters.Add("@categoria", MySqlDbType.String);
-            command.Parameters.Add("@preco", MySqlDbType.Decimal);
+            command.Parameters.Add("@preco", MySqlDbType.Float);
             
             command.Parameters["@nome"].Value = produto.Nome;
             command.Parameters["@descricao"].Value = produto.Descricao;
@@ -137,7 +137,7 @@ namespace Supermercado.Model.DAO
             command.Parameters.Add("@nome", MySqlDbType.String);
             command.Parameters.Add("@descricao", MySqlDbType.String);
             command.Parameters.Add("@categoria", MySqlDbType.String);
-            command.Parameters.Add("@preco", MySqlDbType.String);
+            command.Parameters.Add("@preco", MySqlDbType.Float);
             command.Parameters.Add("@codigo", MySqlDbType.Int32);
             
             command.Parameters["@nome"].Value = produto.Nome;

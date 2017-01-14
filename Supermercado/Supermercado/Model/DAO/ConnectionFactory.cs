@@ -31,19 +31,5 @@ namespace Supermercado.Model.DAO
         {
             return connection;
         }
-
-        /*public void ExecutarSQL(string query)
-        {
-            //verifica se a conexão está aberta
-            if (connection.State != System.Data.ConnectionState.Open)
-                connection.Open();
-
-            //instancia comando do MySQL
-            MySqlCommand command = new MySqlCommand(query, connection);
-            command.ExecuteNonQuery();
-
-            //fecha conexão
-            connection.Close();
-        }*/
     }
 }

@@ -109,7 +109,6 @@
             // txtPreco
             // 
             this.txtPreco.Location = new System.Drawing.Point(269, 186);
-            this.txtPreco.Mask = "00000,00";
             this.txtPreco.Name = "txtPreco";
             this.txtPreco.Size = new System.Drawing.Size(53, 20);
             this.txtPreco.TabIndex = 29;

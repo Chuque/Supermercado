@@ -72,11 +72,12 @@ namespace Supermercado.View
                 Produto produto = new Produto();
 
                 produto.Nome = txtNome.Text;
-                produto.Codigo = int.Parse(lblNumeroCodigo.Text);
+                if(lblNumeroCodigo.Text != "")
+                    produto.Codigo = int.Parse(lblNumeroCodigo.Text);
                 produto.Descricao = txtDescricao.Text;
                 produto.Categoria = txtCategoria.Text;
                 if (txtPreco.Text.Length > 0)
-                    produto.Preco = float.Parse(txtPreco.Text);
+                    produto.Preco = float.Parse(float.Parse(txtPreco.Text).ToString("0.00"));
 
                 if (editando == false)
                 {
@@ -133,6 +134,7 @@ namespace Supermercado.View
 
         private void limparFormulario()
         {
+            lblNumeroCodigo.Text = "";
             txtNome.Text = "";
             txtDescricao.Text = "";
             txtCategoria.Text = "";
@@ -180,7 +182,7 @@ namespace Supermercado.View
             lblNumeroCodigo.Text = produto.Codigo.ToString();
             txtDescricao.Text = produto.Descricao;
             txtCategoria.Text = produto.Categoria;
-            txtPreco.Text = produto.Preco.ToString();
+            txtPreco.Text = produto.Preco.ToString("0.00");
         }
 
         private void estilizar()

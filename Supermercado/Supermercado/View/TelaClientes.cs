@@ -118,7 +118,6 @@ namespace Supermercado.View
                 btnNovoSalvar.Text = "Novo";
                 btnApagarCancelar.Text = "Apagar";
                 btnEditar.Enabled = true;
-                //btnApagarCancelar.Enabled = false;
                 carregarTabelaClientes(new ClienteDAO().read(""));
                 dgvClientes_CellClick(null, null);
             }
@@ -159,9 +158,9 @@ namespace Supermercado.View
             txtRua.ReadOnly = bloqueio;
             txtNumero.ReadOnly = bloqueio;
             txtBairro.ReadOnly = bloqueio;
-
+            /*
             if (bloqueio == false)
-                txtPesquisar.Text = "";
+                txtPesquisar.Text = "";*/
             pnlClientes.Enabled = bloqueio;
         }
 
@@ -226,7 +225,7 @@ namespace Supermercado.View
 
         private void txtCpf_TextChanged(object sender, EventArgs e)
         {
-            btnNovoSalvar.Enabled = new ClienteDAO().readOneByCpf(txtCpf.Text).Cpf == null;
+          btnNovoSalvar.Enabled = new ClienteDAO().readOneByCpf(txtCpf.Text).Cpf == null;
         }
     }
 }

@@ -32,6 +32,9 @@ namespace Supermercado.Model.DAO
 
             command.ExecuteNonQuery();
             connection.Close();
+            
+            /*foreach(Produto produto in venda.Produtos)
+                new ProdutoVendaDAO().create(venda.Numero, produto);*/
         }
         
         public List<Venda> read(string nomeClienteOuNumero)

@@ -124,7 +124,7 @@ namespace Supermercado.Model.DAO
                 cliente.Telefone = dataReader.GetString("telefone");
                 cliente.Cep = dataReader.GetString("cep");
                 cliente.Rua = dataReader.GetString("rua");
-                cliente.Numero = dataReader.GetUInt16("numero");
+                cliente.Numero = dataReader.GetInt32("numero");
                 cliente.Bairro = dataReader.GetString("bairro");
             }
 
